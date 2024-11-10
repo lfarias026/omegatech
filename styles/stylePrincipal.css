@@ -101,7 +101,7 @@ header ul li a:hover {
     width: 80%;
     max-width: 600px;
     border-radius: 10px;
-     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
     transition: transform 0.3s ease;
     text-align: center;
 }
@@ -109,15 +109,13 @@ header ul li a:hover {
     transform: scale(1.05);
 }
 
- #slides {
+#slides {
     background-color: #111;
     text-align: center;
     overflow: hidden;
     padding: 20px 0; 
-    margin: 60px;
+    margin: 50px 120px;
     border-radius: 10px;
-    position: relative; 
-    height: 350px;    
 }
 
 #slides .slide-container {
@@ -128,9 +126,9 @@ header ul li a:hover {
 }
 
 #slides .slide {
-    flex: 0 0 10%;
-    height: 800px; 
-    max-height: 500px;
+    flex: 0 0 40%;
+    height: 600px; 
+    max-height: 300px;
     display: none;
     margin: 0 10px; 
     overflow: hidden; 

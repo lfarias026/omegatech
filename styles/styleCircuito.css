@@ -124,7 +124,7 @@ header ul li a:hover {
 }
 
 #slides .slide img {
-    width: 100%;
+    width: auto; 
     height: 100%; 
     object-fit: cover; 
     transition: transform 0.3s ease; 
@@ -168,10 +168,9 @@ section h2 {
 }
 
 
-.imagem {
-    width: auto; 
-    height: 250px;
-    
+.imagem-grande {
+    width: 50%;
+    max-width: 300px; 
     margin: 20px auto; 
     display: block;
     border-radius: 15px; 
@@ -179,10 +178,11 @@ section h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.imagem:hover {
+.imagem-grande:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); 
 }
+
 
 .botaoLink{
     text-align: center;
@@ -215,7 +215,6 @@ iframe{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: auto;
-    margin-bottom: 40px;
 }
 
 footer {

@@ -113,7 +113,7 @@ header ul li a:hover {
     background-color: #111;
     text-align: center;
     overflow: hidden;
-    padding: 20px 0; 
+    padding: 30px 0; 
     margin: 50px 120px;
     border-radius: 10px;
 }
@@ -286,7 +286,6 @@ section h2 {
     line-height: 1.5;
 }
 
-
 .imagem-grande {
     width: 50%; 
     max-width: 300px; 
@@ -298,6 +297,20 @@ section h2 {
     }
 
 .imagem-grande:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); 
+}
+.imagem {
+    width: auto; 
+    height: 250px;
+    margin: 20px auto; 
+    display: block;
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagem:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); 
 }
@@ -333,6 +346,7 @@ iframe{
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .valores {
@@ -407,35 +421,8 @@ iframe{
     font-size: 20px;
 }
     
-.botaoLink a {
-    background-color: #1E90FF;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
     
-.botaoLink a:hover {
-    background-color: #0056b3;
-}
-    
-.botaoLink a {
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-    
-.botaoLink a:hover {
-    background-color: #0056b3;
-}
+
     
 .projetos li {
     margin-bottom: 16px;

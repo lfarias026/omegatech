@@ -244,6 +244,13 @@ header ul li a:hover {
 .team-card p {
     font-size: 15px;
     margin: 0.48px 0;
+    color: #dbdbdb;
+}
+
+#idade{
+    font-size: 15px;
+    margin: 8px 0;
+    color:#ffb120;
 }
 
 .curriculo1 {
